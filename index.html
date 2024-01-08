@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    
+    <p class="top_info">Just Select Your card and click on the text and Customize Text According to your Choice(Text is editable) and Download image
+         with the help of Download button.</p>
+
+    <section class="card1" id="card1">
+        <h2>Happy Birthday</h2>
+        <h4 contenteditable="true">Name</h4>
+        <blockquote><p contenteditable="true">Wishing you a day filled with happiness and a year filled with joy. Happy birthday Dost!</p></blockquote>
+        <div class="wisher"><p contenteditable="true">&#12316; Someone</p></div>
+    </section>
+
+    <center><button class="card1_btn" onclick="downloadCard1Image()">Download Card <i class="ri-download-fill"></i></button></center>
+
+    <section class="card2" id="card2">
+        <div></div>
+        <div class="card2_info">
+            <h2>Happy Birthday,</h2>
+            <h4 contenteditable="true">Name</h4>
+            <p contenteditable="true"><q> Wishing you a day filled with happiness and a year filled with joy. Happy birthday Dost! </q></p>
+            <div class="wisher"><p contenteditable="true">&#12316; Someone</p></div>
+        </div>
+    </section>
+
+    <center><button class="card2_btn" onclick="downloadCard2Image()">Download Card <i class="ri-download-fill"></i></button></center>
+
+
+    <footer>
+        <span>Designed & Created by </span><a href="https://github.com/sachincse54" target="_blank">Sachin Kumar</a>
+    </footer>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

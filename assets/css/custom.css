@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@:300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+a, button{
+    all: unset;
+    cursor: pointer;
+}
+ul, li{
+    list-style: none;
+}
+
+
+
+.top_info{
+    margin: 40px 10%;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 4px;
+    text-align: center;
+    text-align-last: center;
+}
+
+.card1{
+    /*background-image: url(/assets/img/bg1.png);*/
+    background-color: #77aa77;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.card1 h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+}
+.card1 h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #00ffde;
+}
+.card1 blockquote p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+.card1 blockquote{
+    position: relative;
+      padding: 0 30px; /* Adjust the padding based on the icon size */
+      margin: 20px 0; /* adjust the padding based on the icon size */
+}
+.card1 blockquote::before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px; /* Adjust the size of the icon */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 290" fill="%23FFF"><path d="M22.12 145v97.65h97.65V145H70.95c0-26.92 21.9-48.82 48.82-48.82V47.35c-53.93 0-97.65 43.72-97.65 97.65zm245.76-48.82V47.35c-53.93 0-97.65 43.72-97.65 97.65v97.65h97.65V145h-48.82c-.01-26.92 21.89-48.82 48.82-48.82z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust the size of the icon */
+    transform: translateY(-50%);
+    left: 0;
+    background-position: left center;
+}
+.card1 blockquote::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px; /* Adjust the size of the icon */
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 290" fill="%23FFF"><path d="M267.88 145V47.35h-97.65V145h48.82c0 26.92-21.9 48.82-48.82 48.82v48.82c53.93.01 97.65-43.71 97.65-97.64zM22.12 193.82v48.82c53.93 0 97.65-43.72 97.65-97.65V47.35H22.12V145h48.82c.01 26.92-21.89 48.82-48.82 48.82z"></path></svg>');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust the size of the icon */
+    transform: translateY(-50%);
+    right: 0;
+    background-position: right center;
+}
+.card1 .wisher p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.card1_btn{
+    background-color: #77aa77;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2377aa77'/%3E%3Cstop offset='1' stop-color='%234fd'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23cf8' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23cf8' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: unset;
+    margin: 20px auto;
+    padding: 7px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+
+.card2{
+    width: 600px;
+    height: 400px;
+    background-color: #77aa77;
+    background-image: url(/assets/img/bg2.jpg); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.card2 .card2_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card2 .card2_info h2{
+    padding-left: 5px;
+    color: #EB900A;
+    font-family: 'Style Script', cursive;
+    font-size: 35px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+.card2 .card2_info h4{
+    padding-left: 5px;
+    color: #EB900A;
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+.card2 .card2_info p{
+    color: #e6e1dd;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 10px;
+}
+.card2 .card2_info .wisher p{
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.card2_btn{
+    background-color: #000f26;
+    margin: 20px auto;
+    padding: 7px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #0000001f;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+footer span{
+    color: #00000084;
+}
+footer a{
+    color: #000000;
+}
+footer a:hover{
+    text-decoration: underline;
+}

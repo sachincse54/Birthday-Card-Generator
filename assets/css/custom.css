@@ -119,8 +119,7 @@ ul, li{
 .card2{
     width: 600px;
     height: 400px;
-    background-color: #77aa77;
-    background-image: url(/assets/img/bg2.jpg); 
+    background: url("../../assets/img/bg2.jpg");  
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
